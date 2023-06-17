@@ -9,9 +9,9 @@
   },
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "CommonJS",
+    "outDir": "dist",
     "declaration": true,
-    "declarationDir": "types",
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "strictNullChecks": true,
